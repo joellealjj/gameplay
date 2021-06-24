@@ -5,8 +5,6 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { styles } from './styles';
 import { theme } from '../../global/styles/theme';
 
-type Props = RectButtonProps;
-
 export function ButtonAdd({...rest} : RectButtonProps) {
 
 	return (
