@@ -3,9 +3,11 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
     container: {
-        width: '78%',
-        height: 1,
-        backgroundColor: theme.colors.secondary40,
-        alignSelf: 'flex-end'
+        flex: 1,
+        alignItems: 'center',
+        paddingTop: 24
+    },
+    guilds: {
+        width: '100%'
     }
 });

@@ -4,18 +4,19 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1,
-    },
-    header: {
         width: '100%',
+        height: 104,
+        paddingTop: getStatusBarHeight(),
         paddingHorizontal: 24,
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        marginTop: getStatusBarHeight() + 26,
-        marginBottom: 42
+        justifyContent: 'center',
+        alignItems: 'center'
     },
-    matches: {
-        marginTop: 24,
-        marginLeft: 24
+    title: {
+        flex: 1,
+        textAlign: 'center',
+        fontFamily: theme.fonts.title700,
+        fontSize: 20,
+        color: theme.colors.heading
     }
 });
